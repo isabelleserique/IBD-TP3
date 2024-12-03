@@ -7,7 +7,7 @@ import lorem
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Bellezinhababy1!",
+    password="senha",
     database="connectme"
 )
 
