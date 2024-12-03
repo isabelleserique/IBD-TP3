@@ -105,8 +105,8 @@ GROUP BY u.id;
 
 Inserir um novo usuário na tabela Usuario:
 INSERT INTO Usuario (id, nome, email, dataNascimento, idade, biografia, localizacao, linkFoto)
-VALUES (1, 'João Silva', 'joao.silva@email.com', '1995-05-15', 29, 'Biografia do João', 'São Paulo, SP', 'www.com');
+VALUES (1001, 'João Silva', 'joao.silva@email.com', '1995-05-15', 29, 'Biografia do João', 'São Paulo, SP', 'www.com');
 
 Inserir uma nova postagem na tabela Postagem:
 INSERT INTO Postagem (id, tipo, texto, link)
-VALUES (1, 'Texto', 'Eu e as migas fazendo o TP3 de IBD.', 'http://linkdotexto.com');
+VALUES (501, 'Texto', 'Eu e as migas fazendo o TP3 de IBD.', 'http://linkdotexto.com');
